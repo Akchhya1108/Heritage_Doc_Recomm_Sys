@@ -1,0 +1,1650 @@
+{
+  "seed_queries": [
+    {
+      "query_text": "Show me ancient Buddhist stupas in India",
+      "heritage_types": [
+        "monument"
+      ],
+      "domains": [
+        "religious",
+        "archaeological"
+      ],
+      "time_period": "ancient",
+      "region": "india",
+      "complexity": "simple",
+      "rationale": "Clear single-intent query for specific monument type with temporal/spatial constraints",
+      "query_id": "seed_000",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        5,
+        15
+      ],
+      "creation_date": "2025-11-29T18:32:19.229816",
+      "version": "2.0"
+    },
+    {
+      "query_text": "What are the major Mughal forts in North India?",
+      "heritage_types": [
+        "monument",
+        "architecture"
+      ],
+      "domains": [
+        "military",
+        "royal"
+      ],
+      "time_period": "medieval",
+      "region": "north",
+      "complexity": "simple",
+      "rationale": "Tests retrieval of specific architectural style with regional filtering",
+      "query_id": "seed_001",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        3,
+        10
+      ],
+      "creation_date": "2025-11-29T18:32:19.229827",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Find information about UNESCO World Heritage temples",
+      "heritage_types": [
+        "monument",
+        "site"
+      ],
+      "domains": [
+        "religious",
+        "cultural"
+      ],
+      "time_period": null,
+      "region": null,
+      "complexity": "simple",
+      "rationale": "Tests entity recognition (UNESCO) combined with heritage type",
+      "query_id": "seed_002",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        36,
+        110
+      ],
+      "creation_date": "2025-11-29T18:32:19.229831",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Archaeological sites from the Indus Valley Civilization",
+      "heritage_types": [
+        "site"
+      ],
+      "domains": [
+        "archaeological"
+      ],
+      "time_period": "ancient",
+      "region": null,
+      "complexity": "simple",
+      "rationale": "Named civilization should trigger entity matching and temporal filtering",
+      "query_id": "seed_003",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        26,
+        79
+      ],
+      "creation_date": "2025-11-29T18:32:19.229833",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Colonial era historical sites in India",
+      "heritage_types": [
+        "site"
+      ],
+      "domains": [
+        "cultural",
+        "architectural"
+      ],
+      "time_period": "modern",
+      "region": "india",
+      "complexity": "simple",
+      "rationale": "Tests modern time period which is underrepresented in dataset",
+      "query_id": "seed_004",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        2,
+        7
+      ],
+      "creation_date": "2025-11-29T18:32:19.229835",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Ancient Indian cave paintings and rock art",
+      "heritage_types": [
+        "art",
+        "site"
+      ],
+      "domains": [
+        "cultural",
+        "archaeological"
+      ],
+      "time_period": "ancient",
+      "region": "india",
+      "complexity": "simple",
+      "rationale": "Combines art with site, tests specific art form recognition",
+      "query_id": "seed_005",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        5,
+        15
+      ],
+      "creation_date": "2025-11-29T18:32:19.229837",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Traditional Indian dance forms and performing arts",
+      "heritage_types": [
+        "tradition",
+        "art"
+      ],
+      "domains": [
+        "cultural"
+      ],
+      "time_period": null,
+      "region": "india",
+      "complexity": "simple",
+      "rationale": "Tests intangible heritage retrieval (tradition type)",
+      "query_id": "seed_006",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        5,
+        15
+      ],
+      "creation_date": "2025-11-29T18:32:19.229839",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Examples of Dravidian temple architecture in South India",
+      "heritage_types": [
+        "architecture",
+        "monument"
+      ],
+      "domains": [
+        "religious",
+        "architectural"
+      ],
+      "time_period": null,
+      "region": "south",
+      "complexity": "simple",
+      "rationale": "Specific architectural style with regional constraint",
+      "query_id": "seed_007",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        2,
+        8
+      ],
+      "creation_date": "2025-11-29T18:32:19.229841",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Indo-Islamic architectural monuments",
+      "heritage_types": [
+        "architecture",
+        "monument"
+      ],
+      "domains": [
+        "religious",
+        "architectural"
+      ],
+      "time_period": null,
+      "region": null,
+      "complexity": "simple",
+      "rationale": "Tests architectural style recognition without spatial/temporal constraints",
+      "query_id": "seed_008",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        36,
+        110
+      ],
+      "creation_date": "2025-11-29T18:32:19.229843",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Ancient bronze sculptures from South India",
+      "heritage_types": [
+        "artifact",
+        "art"
+      ],
+      "domains": [
+        "cultural",
+        "religious"
+      ],
+      "time_period": "ancient",
+      "region": "south",
+      "complexity": "simple",
+      "rationale": "Artifact type with material specification and regional constraint",
+      "query_id": "seed_009",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        2,
+        8
+      ],
+      "creation_date": "2025-11-29T18:32:19.229845",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Medieval manuscript collections and historical documents",
+      "heritage_types": [
+        "artifact"
+      ],
+      "domains": [
+        "cultural"
+      ],
+      "time_period": "medieval",
+      "region": null,
+      "complexity": "simple",
+      "rationale": "Tests artifact retrieval with specific medium",
+      "query_id": "seed_010",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        3,
+        10
+      ],
+      "creation_date": "2025-11-29T18:32:19.229847",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Buddhist and Jain cave temples in Western India with ancient rock-cut architecture",
+      "heritage_types": [
+        "monument",
+        "architecture",
+        "site"
+      ],
+      "domains": [
+        "religious",
+        "archaeological",
+        "architectural"
+      ],
+      "time_period": "ancient",
+      "region": "west",
+      "complexity": "moderate",
+      "rationale": "Multiple religions, specific architecture type, regional + temporal constraints",
+      "query_id": "seed_011",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        1,
+        7
+      ],
+      "creation_date": "2025-11-29T18:32:19.229849",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Royal palaces and forts built by Rajput dynasties",
+      "heritage_types": [
+        "monument",
+        "architecture"
+      ],
+      "domains": [
+        "royal",
+        "military",
+        "architectural"
+      ],
+      "time_period": "medieval",
+      "region": null,
+      "complexity": "moderate",
+      "rationale": "Tests dynasty entity recognition combined with heritage types",
+      "query_id": "seed_012",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        1,
+        7
+      ],
+      "creation_date": "2025-11-29T18:32:19.229850",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Sacred rivers and pilgrimage sites in Hindu tradition",
+      "heritage_types": [
+        "site",
+        "tradition"
+      ],
+      "domains": [
+        "religious",
+        "cultural"
+      ],
+      "time_period": null,
+      "region": "india",
+      "complexity": "moderate",
+      "rationale": "Combines tangible sites with intangible traditions",
+      "query_id": "seed_013",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        2,
+        10
+      ],
+      "creation_date": "2025-11-29T18:32:19.229852",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Ancient maritime trade routes and port cities",
+      "heritage_types": [
+        "site"
+      ],
+      "domains": [
+        "archaeological",
+        "cultural"
+      ],
+      "time_period": "ancient",
+      "region": null,
+      "complexity": "moderate",
+      "rationale": "Thematic query requiring conceptual understanding of trade heritage",
+      "query_id": "seed_014",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        13,
+        53
+      ],
+      "creation_date": "2025-11-29T18:32:19.229854",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Monuments and buildings influenced by Persian architectural elements",
+      "heritage_types": [
+        "monument",
+        "architecture"
+      ],
+      "domains": [
+        "architectural",
+        "cultural"
+      ],
+      "time_period": null,
+      "region": null,
+      "complexity": "moderate",
+      "rationale": "Tests cultural influence recognition across multiple structures",
+      "query_id": "seed_015",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        18,
+        73
+      ],
+      "creation_date": "2025-11-29T18:32:19.229855",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Rock-cut monasteries and viharas from Buddhist era",
+      "heritage_types": [
+        "monument",
+        "site",
+        "architecture"
+      ],
+      "domains": [
+        "religious",
+        "archaeological"
+      ],
+      "time_period": "ancient",
+      "region": null,
+      "complexity": "moderate",
+      "rationale": "Specific architectural technique + religious affiliation + temporal",
+      "query_id": "seed_016",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        13,
+        53
+      ],
+      "creation_date": "2025-11-29T18:32:19.229857",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Water management systems in ancient Indian civilizations",
+      "heritage_types": [
+        "site",
+        "architecture"
+      ],
+      "domains": [
+        "archaeological",
+        "cultural"
+      ],
+      "time_period": "ancient",
+      "region": "india",
+      "complexity": "moderate",
+      "rationale": "Thematic query for engineering heritage",
+      "query_id": "seed_017",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        2,
+        10
+      ],
+      "creation_date": "2025-11-29T18:32:19.229859",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Temple towns and sacred geography in medieval South India",
+      "heritage_types": [
+        "site",
+        "monument"
+      ],
+      "domains": [
+        "religious",
+        "cultural"
+      ],
+      "time_period": "medieval",
+      "region": "south",
+      "complexity": "moderate",
+      "rationale": "Spatial + temporal + religious + urban planning concepts",
+      "query_id": "seed_018",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        1,
+        6
+      ],
+      "creation_date": "2025-11-29T18:32:19.229861",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Compare architectural evolution from ancient Buddhist stupas to medieval Hindu temples showing Indo-Islamic synthesis",
+      "heritage_types": [
+        "monument",
+        "architecture",
+        "art"
+      ],
+      "domains": [
+        "religious",
+        "architectural",
+        "cultural"
+      ],
+      "time_period": null,
+      "region": null,
+      "complexity": "complex",
+      "rationale": "Cross-temporal comparison, multiple religions, architectural evolution - tests nuanced relevance",
+      "query_id": "seed_019",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        7,
+        36
+      ],
+      "creation_date": "2025-11-29T18:32:19.229862",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Coastal defense structures and maritime heritage from Chola period to colonial era",
+      "heritage_types": [
+        "monument",
+        "site",
+        "architecture"
+      ],
+      "domains": [
+        "military",
+        "archaeological",
+        "cultural"
+      ],
+      "time_period": null,
+      "region": null,
+      "complexity": "complex",
+      "rationale": "Long temporal span, specific dynasty, thematic (maritime), functional type",
+      "query_id": "seed_020",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        7,
+        36
+      ],
+      "creation_date": "2025-11-29T18:32:19.229864",
+      "version": "2.0"
+    },
+    {
+      "query_text": "UNESCO sites representing cultural exchange along Silk Route in Indian subcontinent",
+      "heritage_types": [
+        "site",
+        "monument"
+      ],
+      "domains": [
+        "cultural",
+        "archaeological"
+      ],
+      "time_period": null,
+      "region": null,
+      "complexity": "complex",
+      "rationale": "Trade route concept, international dimension, cultural exchange theme",
+      "query_id": "seed_021",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        7,
+        36
+      ],
+      "creation_date": "2025-11-29T18:32:19.229866",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Living heritage traditions practiced at ancient pilgrimage sites",
+      "heritage_types": [
+        "tradition",
+        "site",
+        "monument"
+      ],
+      "domains": [
+        "religious",
+        "cultural"
+      ],
+      "time_period": null,
+      "region": null,
+      "complexity": "complex",
+      "rationale": "Tangible-intangible linkage, continuity of tradition over time",
+      "query_id": "seed_022",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        7,
+        36
+      ],
+      "creation_date": "2025-11-29T18:32:19.229867",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Rock art sites showing prehistoric to early historic transition in central India",
+      "heritage_types": [
+        "art",
+        "site"
+      ],
+      "domains": [
+        "archaeological",
+        "cultural"
+      ],
+      "time_period": "ancient",
+      "region": "central",
+      "complexity": "complex",
+      "rationale": "Temporal transition, underrepresented region (central), specific art form",
+      "query_id": "seed_023",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        1,
+        6
+      ],
+      "creation_date": "2025-11-29T18:32:19.229869",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Royal patronage networks connecting temples, monasteries and educational institutions",
+      "heritage_types": [
+        "monument",
+        "site"
+      ],
+      "domains": [
+        "religious",
+        "royal",
+        "cultural"
+      ],
+      "time_period": null,
+      "region": null,
+      "complexity": "complex",
+      "rationale": "Network/relationship query - tests graph-based retrieval strength",
+      "query_id": "seed_024",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        7,
+        36
+      ],
+      "creation_date": "2025-11-29T18:32:19.229871",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Funerary architecture and burial practices across different cultures and time periods",
+      "heritage_types": [
+        "monument",
+        "site",
+        "tradition"
+      ],
+      "domains": [
+        "cultural",
+        "archaeological",
+        "religious"
+      ],
+      "time_period": null,
+      "region": null,
+      "complexity": "complex",
+      "rationale": "Cross-cultural, cross-temporal thematic query",
+      "query_id": "seed_025",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        7,
+        36
+      ],
+      "creation_date": "2025-11-29T18:32:19.229872",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Urban planning and city layouts in ancient vs medieval Indian capitals",
+      "heritage_types": [
+        "site",
+        "architecture"
+      ],
+      "domains": [
+        "archaeological",
+        "cultural",
+        "royal"
+      ],
+      "time_period": null,
+      "region": null,
+      "complexity": "complex",
+      "rationale": "Comparative temporal query, urban planning theme",
+      "query_id": "seed_026",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        7,
+        36
+      ],
+      "creation_date": "2025-11-29T18:32:19.229874",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Buddhist heritage sites in Eastern India",
+      "heritage_types": [
+        "site",
+        "monument"
+      ],
+      "domains": [
+        "religious",
+        "archaeological"
+      ],
+      "time_period": null,
+      "region": "east",
+      "complexity": "simple",
+      "rationale": "Tests underrepresented region (east - only 13 docs)",
+      "query_id": "seed_027",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        1,
+        6
+      ],
+      "creation_date": "2025-11-29T18:32:19.229876",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Heritage sites in Central India",
+      "heritage_types": [
+        "site"
+      ],
+      "domains": [
+        "cultural"
+      ],
+      "time_period": null,
+      "region": "central",
+      "complexity": "simple",
+      "rationale": "Tests most underrepresented region (central - only 2 docs)",
+      "query_id": "seed_028",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        1,
+        6
+      ],
+      "creation_date": "2025-11-29T18:32:19.229878",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Modern architectural heritage from 20th century India",
+      "heritage_types": [
+        "architecture",
+        "monument"
+      ],
+      "domains": [
+        "architectural",
+        "cultural"
+      ],
+      "time_period": "modern",
+      "region": "india",
+      "complexity": "simple",
+      "rationale": "Tests underrepresented time period (modern - only 20 docs)",
+      "query_id": "seed_029",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        2,
+        7
+      ],
+      "creation_date": "2025-11-29T18:32:19.229880",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Artifacts and archaeological finds from unknown or uncertain time periods",
+      "heritage_types": [
+        "artifact",
+        "site"
+      ],
+      "domains": [
+        "archaeological"
+      ],
+      "time_period": "unknown",
+      "region": null,
+      "complexity": "simple",
+      "rationale": "Tests handling of unknown/uncertain metadata",
+      "query_id": "seed_030",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        36,
+        110
+      ],
+      "creation_date": "2025-11-29T18:32:19.229881",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Intangible cultural heritage and living traditions",
+      "heritage_types": [
+        "tradition"
+      ],
+      "domains": [
+        "cultural"
+      ],
+      "time_period": null,
+      "region": null,
+      "complexity": "simple",
+      "rationale": "Tests retrieval of intangible heritage (only 24 docs)",
+      "query_id": "seed_031",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        36,
+        110
+      ],
+      "creation_date": "2025-11-29T18:32:19.229883",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Vernacular architecture and folk traditions in rural India",
+      "heritage_types": [
+        "architecture",
+        "tradition"
+      ],
+      "domains": [
+        "cultural"
+      ],
+      "time_period": null,
+      "region": null,
+      "complexity": "moderate",
+      "rationale": "Tests non-monumental heritage which may be underrepresented",
+      "query_id": "seed_032",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        18,
+        73
+      ],
+      "creation_date": "2025-11-29T18:32:19.229885",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Colonial Indo-Saracenic architecture blending European and Indian styles",
+      "heritage_types": [
+        "architecture",
+        "monument"
+      ],
+      "domains": [
+        "architectural",
+        "cultural"
+      ],
+      "time_period": "modern",
+      "region": null,
+      "complexity": "moderate",
+      "rationale": "Specific hybrid architectural style from modern period",
+      "query_id": "seed_033",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        1,
+        6
+      ],
+      "creation_date": "2025-11-29T18:32:19.229888",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Megalithic burial sites and prehistoric monuments",
+      "heritage_types": [
+        "site",
+        "monument"
+      ],
+      "domains": [
+        "archaeological"
+      ],
+      "time_period": "ancient",
+      "region": null,
+      "complexity": "simple",
+      "rationale": "Very ancient heritage that may be sparse in dataset",
+      "query_id": "seed_034",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        26,
+        79
+      ],
+      "creation_date": "2025-11-29T18:32:19.229890",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Ancient Egyptian pyramids and pharaonic tombs",
+      "heritage_types": [
+        "monument",
+        "site"
+      ],
+      "domains": [
+        "archaeological",
+        "royal"
+      ],
+      "time_period": "ancient",
+      "region": null,
+      "complexity": "simple",
+      "rationale": "NEGATIVE - Non-Indian geography, should return empty or near-empty",
+      "query_id": "seed_035",
+      "query_type": "negative",
+      "expected_result_size_range": [
+        0,
+        5
+      ],
+      "creation_date": "2025-11-29T18:32:19.229891",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Renaissance art and architecture in Italy",
+      "heritage_types": [
+        "art",
+        "architecture"
+      ],
+      "domains": [
+        "cultural",
+        "architectural"
+      ],
+      "time_period": "medieval",
+      "region": null,
+      "complexity": "simple",
+      "rationale": "NEGATIVE - European geography and cultural context",
+      "query_id": "seed_036",
+      "query_type": "negative",
+      "expected_result_size_range": [
+        0,
+        5
+      ],
+      "creation_date": "2025-11-29T18:32:19.229892",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Pre-Columbian Mayan temples and codices",
+      "heritage_types": [
+        "monument",
+        "artifact"
+      ],
+      "domains": [
+        "religious",
+        "archaeological"
+      ],
+      "time_period": "ancient",
+      "region": null,
+      "complexity": "simple",
+      "rationale": "NEGATIVE - American geography, different cultural sphere",
+      "query_id": "seed_037",
+      "query_type": "negative",
+      "expected_result_size_range": [
+        0,
+        5
+      ],
+      "creation_date": "2025-11-29T18:32:19.229894",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Contemporary digital art installations from 21st century",
+      "heritage_types": [
+        "art"
+      ],
+      "domains": [
+        "cultural"
+      ],
+      "time_period": "modern",
+      "region": null,
+      "complexity": "simple",
+      "rationale": "NEGATIVE - Too recent, not traditional heritage",
+      "query_id": "seed_038",
+      "query_type": "negative",
+      "expected_result_size_range": [
+        0,
+        5
+      ],
+      "creation_date": "2025-11-29T18:32:19.229895",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Industrial revolution factories and railway heritage in Europe",
+      "heritage_types": [
+        "site",
+        "architecture"
+      ],
+      "domains": [
+        "archaeological",
+        "cultural"
+      ],
+      "time_period": "modern",
+      "region": null,
+      "complexity": "simple",
+      "rationale": "NEGATIVE - European industrial heritage, different domain",
+      "query_id": "seed_039",
+      "query_type": "negative",
+      "expected_result_size_range": [
+        0,
+        5
+      ],
+      "creation_date": "2025-11-29T18:32:19.229896",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Hindu temples dedicated to Shiva",
+      "heritage_types": [
+        "monument"
+      ],
+      "domains": [
+        "religious"
+      ],
+      "time_period": null,
+      "region": null,
+      "complexity": "simple",
+      "rationale": "Specific deity focus, common religious query pattern",
+      "query_id": "seed_040",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        36,
+        110
+      ],
+      "creation_date": "2025-11-29T18:32:19.229898",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Islamic mosques and dargahs in India",
+      "heritage_types": [
+        "monument",
+        "site"
+      ],
+      "domains": [
+        "religious",
+        "cultural"
+      ],
+      "time_period": null,
+      "region": "india",
+      "complexity": "simple",
+      "rationale": "Islamic heritage in Indian context",
+      "query_id": "seed_041",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        5,
+        15
+      ],
+      "creation_date": "2025-11-29T18:32:19.229899",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Sikh gurdwaras and historical sites",
+      "heritage_types": [
+        "monument",
+        "site"
+      ],
+      "domains": [
+        "religious",
+        "cultural"
+      ],
+      "time_period": null,
+      "region": null,
+      "complexity": "simple",
+      "rationale": "Specific religious tradition, tests minority representation",
+      "query_id": "seed_042",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        36,
+        110
+      ],
+      "creation_date": "2025-11-29T18:32:19.229901",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Jain temples with intricate marble carvings",
+      "heritage_types": [
+        "monument",
+        "art"
+      ],
+      "domains": [
+        "religious",
+        "architectural"
+      ],
+      "time_period": null,
+      "region": null,
+      "complexity": "simple",
+      "rationale": "Specific religious + artistic feature combination",
+      "query_id": "seed_043",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        36,
+        110
+      ],
+      "creation_date": "2025-11-29T18:32:19.229903",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Hill forts and defensive fortifications in Western India",
+      "heritage_types": [
+        "monument",
+        "site"
+      ],
+      "domains": [
+        "military",
+        "architectural"
+      ],
+      "time_period": null,
+      "region": "west",
+      "complexity": "simple",
+      "rationale": "Military architecture with topographical specification",
+      "query_id": "seed_044",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        3,
+        11
+      ],
+      "creation_date": "2025-11-29T18:32:19.229904",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Battle sites and war memorials from Indian history",
+      "heritage_types": [
+        "site",
+        "monument"
+      ],
+      "domains": [
+        "military",
+        "cultural"
+      ],
+      "time_period": null,
+      "region": null,
+      "complexity": "simple",
+      "rationale": "Commemorative military heritage",
+      "query_id": "seed_045",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        36,
+        110
+      ],
+      "creation_date": "2025-11-29T18:32:19.229906",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Royal palaces and residential quarters of Indian rulers",
+      "heritage_types": [
+        "architecture",
+        "monument"
+      ],
+      "domains": [
+        "royal",
+        "architectural"
+      ],
+      "time_period": null,
+      "region": null,
+      "complexity": "simple",
+      "rationale": "Royal domestic architecture",
+      "query_id": "seed_046",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        36,
+        110
+      ],
+      "creation_date": "2025-11-29T18:32:19.229908",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Coronation sites and royal ceremonial spaces",
+      "heritage_types": [
+        "site"
+      ],
+      "domains": [
+        "royal",
+        "cultural"
+      ],
+      "time_period": null,
+      "region": null,
+      "complexity": "moderate",
+      "rationale": "Ceremonial royal heritage, may require contextual understanding",
+      "query_id": "seed_047",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        18,
+        73
+      ],
+      "creation_date": "2025-11-29T18:32:19.229909",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Monuments built by Ashoka the Great",
+      "heritage_types": [
+        "monument"
+      ],
+      "domains": [
+        "royal",
+        "religious"
+      ],
+      "time_period": "ancient",
+      "region": null,
+      "complexity": "simple",
+      "rationale": "Named historical figure - tests person entity matching",
+      "query_id": "seed_048",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        26,
+        79
+      ],
+      "creation_date": "2025-11-29T18:32:19.229911",
+      "version": "2.0"
+    },
+    {
+      "query_text": "Architectural works commissioned by Shah Jahan",
+      "heritage_types": [
+        "architecture",
+        "monument"
+      ],
+      "domains": [
+        "royal",
+        "architectural"
+      ],
+      "time_period": "medieval",
+      "region": null,
+      "complexity": "simple",
+      "rationale": "Specific Mughal emperor - tests person entity + temporal",
+      "query_id": "seed_049",
+      "query_type": "seed",
+      "expected_result_size_range": [
+        3,
+        10
+      ],
+      "creation_date": "2025-11-29T18:32:19.229913",
+      "version": "2.0"
+    }
+  ],
+  "synthetic_queries": [
+    {
+      "query_text": "Find art ancient in west India heritage sites",
+      "heritage_types": [
+        "art",
+        "artifact"
+      ],
+      "domains": [
+        "cultural",
+        "religious"
+      ],
+      "time_period": "ancient",
+      "region": "west",
+      "complexity": "simple",
+      "expected_result_size_range": [
+        3,
+        11
+      ],
+      "rationale": "Synthetic query generated from cluster -1 representative document",
+      "creation_date": "2025-11-29T18:32:19.230634",
+      "version": "2.0",
+      "query_id": "synthetic_easy_000",
+      "query_type": "synthetic_easy"
+    },
+    {
+      "query_text": "historical art and monument in royal, military domains from east region",
+      "heritage_types": [
+        "art",
+        "monument"
+      ],
+      "domains": [
+        "royal",
+        "military",
+        "cultural"
+      ],
+      "time_period": null,
+      "region": "east",
+      "complexity": "complex",
+      "expected_result_size_range": [
+        1,
+        6
+      ],
+      "rationale": "Synthetic hard query with multiple overlapping concepts",
+      "creation_date": "2025-11-29T18:32:19.230657",
+      "version": "2.0",
+      "query_id": "synthetic_hard_000",
+      "query_type": "synthetic_hard"
+    },
+    {
+      "query_text": "medieval site and monument in architectural, cultural domains from north region",
+      "heritage_types": [
+        "site",
+        "monument"
+      ],
+      "domains": [
+        "architectural",
+        "cultural",
+        "religious"
+      ],
+      "time_period": "medieval",
+      "region": "north",
+      "complexity": "complex",
+      "expected_result_size_range": [
+        1,
+        6
+      ],
+      "rationale": "Synthetic hard query with multiple overlapping concepts",
+      "creation_date": "2025-11-29T18:32:19.230669",
+      "version": "2.0",
+      "query_id": "synthetic_hard_001",
+      "query_type": "synthetic_hard"
+    },
+    {
+      "query_text": "medieval site and art in religious, royal domains",
+      "heritage_types": [
+        "site",
+        "art"
+      ],
+      "domains": [
+        "religious",
+        "royal",
+        "archaeological"
+      ],
+      "time_period": "medieval",
+      "region": null,
+      "complexity": "complex",
+      "expected_result_size_range": [
+        1,
+        6
+      ],
+      "rationale": "Synthetic hard query with multiple overlapping concepts",
+      "creation_date": "2025-11-29T18:32:19.230678",
+      "version": "2.0",
+      "query_id": "synthetic_hard_002",
+      "query_type": "synthetic_hard"
+    },
+    {
+      "query_text": "modern site and monument in cultural, religious domains from central region",
+      "heritage_types": [
+        "site",
+        "monument",
+        "art"
+      ],
+      "domains": [
+        "cultural",
+        "religious",
+        "military"
+      ],
+      "time_period": "modern",
+      "region": "central",
+      "complexity": "complex",
+      "expected_result_size_range": [
+        1,
+        6
+      ],
+      "rationale": "Synthetic hard query with multiple overlapping concepts",
+      "creation_date": "2025-11-29T18:32:19.230686",
+      "version": "2.0",
+      "query_id": "synthetic_hard_003",
+      "query_type": "synthetic_hard"
+    },
+    {
+      "query_text": "medieval monument and artifact in military, religious domains from india region",
+      "heritage_types": [
+        "monument",
+        "artifact"
+      ],
+      "domains": [
+        "military",
+        "religious",
+        "architectural"
+      ],
+      "time_period": "medieval",
+      "region": "india",
+      "complexity": "complex",
+      "expected_result_size_range": [
+        1,
+        6
+      ],
+      "rationale": "Synthetic hard query with multiple overlapping concepts",
+      "creation_date": "2025-11-29T18:32:19.230693",
+      "version": "2.0",
+      "query_id": "synthetic_hard_004",
+      "query_type": "synthetic_hard"
+    },
+    {
+      "query_text": "ancient monument and site in architectural, military domains",
+      "heritage_types": [
+        "monument",
+        "site"
+      ],
+      "domains": [
+        "architectural",
+        "military"
+      ],
+      "time_period": "ancient",
+      "region": null,
+      "complexity": "complex",
+      "expected_result_size_range": [
+        5,
+        26
+      ],
+      "rationale": "Synthetic hard query with multiple overlapping concepts",
+      "creation_date": "2025-11-29T18:32:19.230699",
+      "version": "2.0",
+      "query_id": "synthetic_hard_005",
+      "query_type": "synthetic_hard"
+    },
+    {
+      "query_text": "modern artifact and architecture in military, archaeological domains from india region",
+      "heritage_types": [
+        "artifact",
+        "architecture"
+      ],
+      "domains": [
+        "military",
+        "archaeological",
+        "architectural"
+      ],
+      "time_period": "modern",
+      "region": "india",
+      "complexity": "complex",
+      "expected_result_size_range": [
+        1,
+        6
+      ],
+      "rationale": "Synthetic hard query with multiple overlapping concepts",
+      "creation_date": "2025-11-29T18:32:19.230706",
+      "version": "2.0",
+      "query_id": "synthetic_hard_006",
+      "query_type": "synthetic_hard"
+    },
+    {
+      "query_text": "historical site and architecture in military, archaeological domains",
+      "heritage_types": [
+        "site",
+        "architecture",
+        "tradition"
+      ],
+      "domains": [
+        "military",
+        "archaeological"
+      ],
+      "time_period": null,
+      "region": null,
+      "complexity": "complex",
+      "expected_result_size_range": [
+        7,
+        36
+      ],
+      "rationale": "Synthetic hard query with multiple overlapping concepts",
+      "creation_date": "2025-11-29T18:32:19.230713",
+      "version": "2.0",
+      "query_id": "synthetic_hard_007",
+      "query_type": "synthetic_hard"
+    },
+    {
+      "query_text": "historical tradition and architecture in royal, cultural domains",
+      "heritage_types": [
+        "tradition",
+        "architecture"
+      ],
+      "domains": [
+        "royal",
+        "cultural"
+      ],
+      "time_period": null,
+      "region": null,
+      "complexity": "complex",
+      "expected_result_size_range": [
+        7,
+        36
+      ],
+      "rationale": "Synthetic hard query with multiple overlapping concepts",
+      "creation_date": "2025-11-29T18:32:19.230720",
+      "version": "2.0",
+      "query_id": "synthetic_hard_008",
+      "query_type": "synthetic_hard"
+    },
+    {
+      "query_text": "modern artifact and site in military, religious domains from east region",
+      "heritage_types": [
+        "artifact",
+        "site",
+        "architecture"
+      ],
+      "domains": [
+        "military",
+        "religious",
+        "architectural"
+      ],
+      "time_period": "modern",
+      "region": "east",
+      "complexity": "complex",
+      "expected_result_size_range": [
+        1,
+        6
+      ],
+      "rationale": "Synthetic hard query with multiple overlapping concepts",
+      "creation_date": "2025-11-29T18:32:19.230727",
+      "version": "2.0",
+      "query_id": "synthetic_hard_009",
+      "query_type": "synthetic_hard"
+    },
+    {
+      "query_text": "modern artifact and architecture in cultural, military domains",
+      "heritage_types": [
+        "artifact",
+        "architecture",
+        "art"
+      ],
+      "domains": [
+        "cultural",
+        "military"
+      ],
+      "time_period": "modern",
+      "region": null,
+      "complexity": "complex",
+      "expected_result_size_range": [
+        1,
+        6
+      ],
+      "rationale": "Synthetic hard query with multiple overlapping concepts",
+      "creation_date": "2025-11-29T18:32:19.230733",
+      "version": "2.0",
+      "query_id": "synthetic_hard_010",
+      "query_type": "synthetic_hard"
+    },
+    {
+      "query_text": "medieval site and architecture in royal, military domains",
+      "heritage_types": [
+        "site",
+        "architecture"
+      ],
+      "domains": [
+        "royal",
+        "military"
+      ],
+      "time_period": "medieval",
+      "region": null,
+      "complexity": "complex",
+      "expected_result_size_range": [
+        1,
+        6
+      ],
+      "rationale": "Synthetic hard query with multiple overlapping concepts",
+      "creation_date": "2025-11-29T18:32:19.230739",
+      "version": "2.0",
+      "query_id": "synthetic_hard_011",
+      "query_type": "synthetic_hard"
+    },
+    {
+      "query_text": "modern site and artifact in architectural, royal domains from west region",
+      "heritage_types": [
+        "site",
+        "artifact"
+      ],
+      "domains": [
+        "architectural",
+        "royal"
+      ],
+      "time_period": "modern",
+      "region": "west",
+      "complexity": "complex",
+      "expected_result_size_range": [
+        1,
+        6
+      ],
+      "rationale": "Synthetic hard query with multiple overlapping concepts",
+      "creation_date": "2025-11-29T18:32:19.230746",
+      "version": "2.0",
+      "query_id": "synthetic_hard_012",
+      "query_type": "synthetic_hard"
+    },
+    {
+      "query_text": "medieval tradition and monument in cultural, archaeological domains from south region",
+      "heritage_types": [
+        "tradition",
+        "monument"
+      ],
+      "domains": [
+        "cultural",
+        "archaeological"
+      ],
+      "time_period": "medieval",
+      "region": "south",
+      "complexity": "complex",
+      "expected_result_size_range": [
+        1,
+        6
+      ],
+      "rationale": "Synthetic hard query with multiple overlapping concepts",
+      "creation_date": "2025-11-29T18:32:19.230752",
+      "version": "2.0",
+      "query_id": "synthetic_hard_013",
+      "query_type": "synthetic_hard"
+    },
+    {
+      "query_text": "ancient tradition and architecture in cultural, religious domains",
+      "heritage_types": [
+        "tradition",
+        "architecture",
+        "art"
+      ],
+      "domains": [
+        "cultural",
+        "religious"
+      ],
+      "time_period": "ancient",
+      "region": null,
+      "complexity": "complex",
+      "expected_result_size_range": [
+        5,
+        26
+      ],
+      "rationale": "Synthetic hard query with multiple overlapping concepts",
+      "creation_date": "2025-11-29T18:32:19.230758",
+      "version": "2.0",
+      "query_id": "synthetic_hard_014",
+      "query_type": "synthetic_hard"
+    },
+    {
+      "query_text": "modern site and artifact in religious, military domains",
+      "heritage_types": [
+        "site",
+        "artifact",
+        "art"
+      ],
+      "domains": [
+        "religious",
+        "military",
+        "architectural"
+      ],
+      "time_period": "modern",
+      "region": null,
+      "complexity": "complex",
+      "expected_result_size_range": [
+        1,
+        6
+      ],
+      "rationale": "Synthetic hard query with multiple overlapping concepts",
+      "creation_date": "2025-11-29T18:32:19.230765",
+      "version": "2.0",
+      "query_id": "synthetic_hard_015",
+      "query_type": "synthetic_hard"
+    },
+    {
+      "query_text": "modern monument and site in cultural, architectural domains from east region",
+      "heritage_types": [
+        "monument",
+        "site"
+      ],
+      "domains": [
+        "cultural",
+        "architectural"
+      ],
+      "time_period": "modern",
+      "region": "east",
+      "complexity": "complex",
+      "expected_result_size_range": [
+        1,
+        6
+      ],
+      "rationale": "Synthetic hard query with multiple overlapping concepts",
+      "creation_date": "2025-11-29T18:32:19.230771",
+      "version": "2.0",
+      "query_id": "synthetic_hard_016",
+      "query_type": "synthetic_hard"
+    },
+    {
+      "query_text": "medieval art and artifact in archaeological, religious domains",
+      "heritage_types": [
+        "art",
+        "artifact"
+      ],
+      "domains": [
+        "archaeological",
+        "religious",
+        "royal"
+      ],
+      "time_period": "medieval",
+      "region": null,
+      "complexity": "complex",
+      "expected_result_size_range": [
+        1,
+        6
+      ],
+      "rationale": "Synthetic hard query with multiple overlapping concepts",
+      "creation_date": "2025-11-29T18:32:19.230777",
+      "version": "2.0",
+      "query_id": "synthetic_hard_017",
+      "query_type": "synthetic_hard"
+    },
+    {
+      "query_text": "medieval artifact and site in religious, military domains",
+      "heritage_types": [
+        "artifact",
+        "site",
+        "architecture"
+      ],
+      "domains": [
+        "religious",
+        "military"
+      ],
+      "time_period": "medieval",
+      "region": null,
+      "complexity": "complex",
+      "expected_result_size_range": [
+        1,
+        6
+      ],
+      "rationale": "Synthetic hard query with multiple overlapping concepts",
+      "creation_date": "2025-11-29T18:32:19.230784",
+      "version": "2.0",
+      "query_id": "synthetic_hard_018",
+      "query_type": "synthetic_hard"
+    },
+    {
+      "query_text": "modern monument and art in archaeological, architectural domains from central region",
+      "heritage_types": [
+        "monument",
+        "art"
+      ],
+      "domains": [
+        "archaeological",
+        "architectural",
+        "royal"
+      ],
+      "time_period": "modern",
+      "region": "central",
+      "complexity": "complex",
+      "expected_result_size_range": [
+        1,
+        6
+      ],
+      "rationale": "Synthetic hard query with multiple overlapping concepts",
+      "creation_date": "2025-11-29T18:32:19.230790",
+      "version": "2.0",
+      "query_id": "synthetic_hard_019",
+      "query_type": "synthetic_hard"
+    }
+  ],
+  "total": 71,
+  "generation_date": "2025-11-29T18:32:19.248847"
+}

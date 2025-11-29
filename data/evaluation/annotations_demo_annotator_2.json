@@ -1,0 +1,1881 @@
+{
+  "annotator_id": "demo_annotator_2",
+  "timestamp": "2025-11-29T18:32:55.480340",
+  "queries": [
+    {
+      "query_id": "seed_000",
+      "judgments": {
+        "227": {
+          "relevance_level": 3,
+          "rationale": "Matches 4/4 expected characteristics"
+        },
+        "39": {
+          "relevance_level": 3,
+          "rationale": "Matches 4/4 expected characteristics"
+        },
+        "115": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "188": {
+          "relevance_level": 1,
+          "rationale": "Matches 0/4 expected characteristics"
+        },
+        "82": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "120": {
+          "relevance_level": 2,
+          "rationale": "Matches 0/4 expected characteristics"
+        },
+        "350": {
+          "relevance_level": 3,
+          "rationale": "Matches 4/4 expected characteristics"
+        },
+        "22": {
+          "relevance_level": 2,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "90": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "334": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "181": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "312": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "296": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "166": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "368": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "336": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "273": {
+          "relevance_level": 2,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "201": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "258": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "229": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "322": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "254": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "321": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "275": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "314": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "108": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "288": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "210": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "135": {
+          "relevance_level": 1,
+          "rationale": "Matches 0/4 expected characteristics"
+        },
+        "148": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        }
+      }
+    },
+    {
+      "query_id": "seed_001",
+      "judgments": {
+        "106": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "72": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "208": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "295": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "345": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "306": {
+          "relevance_level": 3,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "1": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "167": {
+          "relevance_level": 1,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "148": {
+          "relevance_level": 3,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "234": {
+          "relevance_level": 3,
+          "rationale": "Matches 4/4 expected characteristics"
+        },
+        "102": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "41": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "304": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "76": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "45": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "32": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "350": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "319": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "296": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "172": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "291": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "145": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "244": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "149": {
+          "relevance_level": 1,
+          "rationale": "Matches 0/4 expected characteristics"
+        },
+        "12": {
+          "relevance_level": 3,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "286": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "339": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "229": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "171": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "357": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        }
+      }
+    },
+    {
+      "query_id": "seed_002",
+      "judgments": {
+        "126": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "67": {
+          "relevance_level": 1,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "21": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "247": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "32": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "86": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "265": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "241": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "172": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "35": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "51": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "366": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "293": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "109": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "125": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "299": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "330": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "69": {
+          "relevance_level": 3,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "225": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "180": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "346": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "98": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "26": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "99": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "5": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "38": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "235": {
+          "relevance_level": 1,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "60": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "192": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "81": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        }
+      }
+    },
+    {
+      "query_id": "seed_003",
+      "judgments": {
+        "236": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "215": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "70": {
+          "relevance_level": 3,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "196": {
+          "relevance_level": 1,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "333": {
+          "relevance_level": 2,
+          "rationale": "Matches 0/4 expected characteristics"
+        },
+        "139": {
+          "relevance_level": 2,
+          "rationale": "Matches 0/4 expected characteristics"
+        },
+        "103": {
+          "relevance_level": 2,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "187": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "35": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "164": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "212": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "75": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "180": {
+          "relevance_level": 1,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "252": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "137": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "299": {
+          "relevance_level": 3,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "171": {
+          "relevance_level": 1,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "307": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "25": {
+          "relevance_level": 3,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "325": {
+          "relevance_level": 2,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "173": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "207": {
+          "relevance_level": 2,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "228": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "160": {
+          "relevance_level": 1,
+          "rationale": "Matches 0/4 expected characteristics"
+        },
+        "166": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "45": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "100": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "84": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "230": {
+          "relevance_level": 2,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "98": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        }
+      }
+    },
+    {
+      "query_id": "seed_004",
+      "judgments": {
+        "33": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "97": {
+          "relevance_level": 3,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "280": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "234": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "348": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "263": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "359": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "110": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "220": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "219": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "302": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "54": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "165": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "168": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "199": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "212": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "36": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "134": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "289": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "189": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "130": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "138": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "276": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "333": {
+          "relevance_level": 1,
+          "rationale": "Matches 0/4 expected characteristics"
+        },
+        "106": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "133": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "247": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "52": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "66": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "245": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        }
+      }
+    },
+    {
+      "query_id": "seed_005",
+      "judgments": {
+        "89": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "280": {
+          "relevance_level": 2,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "85": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "300": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "149": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "9": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "103": {
+          "relevance_level": 3,
+          "rationale": "Matches 4/4 expected characteristics"
+        },
+        "99": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "107": {
+          "relevance_level": 3,
+          "rationale": "Matches 4/4 expected characteristics"
+        },
+        "309": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "82": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "247": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "321": {
+          "relevance_level": 1,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "88": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "204": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "158": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "240": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "15": {
+          "relevance_level": 3,
+          "rationale": "Matches 4/4 expected characteristics"
+        },
+        "67": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "119": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "365": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "199": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "220": {
+          "relevance_level": 1,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "210": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "345": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "165": {
+          "relevance_level": 2,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "358": {
+          "relevance_level": 2,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "51": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "27": {
+          "relevance_level": 3,
+          "rationale": "Matches 4/4 expected characteristics"
+        },
+        "352": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        }
+      }
+    },
+    {
+      "query_id": "seed_006",
+      "judgments": {
+        "235": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "50": {
+          "relevance_level": 3,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "169": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "42": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "64": {
+          "relevance_level": 2,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "108": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "91": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "255": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "90": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "346": {
+          "relevance_level": 1,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "168": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "299": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "311": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "217": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "295": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "3": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "120": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "302": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "338": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "69": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "297": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "353": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "192": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "147": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "347": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "62": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "219": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "300": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "44": {
+          "relevance_level": 1,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "29": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        }
+      }
+    },
+    {
+      "query_id": "seed_007",
+      "judgments": {
+        "27": {
+          "relevance_level": 1,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "276": {
+          "relevance_level": 3,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "286": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "352": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "188": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "45": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "306": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "330": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "365": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "200": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "199": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "109": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "320": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "97": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "363": {
+          "relevance_level": 1,
+          "rationale": "Matches 0/4 expected characteristics"
+        },
+        "83": {
+          "relevance_level": 3,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "105": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "318": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "295": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "344": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "11": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "279": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "176": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "87": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "158": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "125": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "34": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "131": {
+          "relevance_level": 3,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "64": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "260": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        }
+      }
+    },
+    {
+      "query_id": "seed_008",
+      "judgments": {
+        "231": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "136": {
+          "relevance_level": 1,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "232": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "204": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "192": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "146": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "57": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "251": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "317": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "178": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "37": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "310": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "265": {
+          "relevance_level": 1,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "141": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "337": {
+          "relevance_level": 1,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "153": {
+          "relevance_level": 3,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "300": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "120": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "50": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "23": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "64": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "293": {
+          "relevance_level": 1,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "93": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "69": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "216": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "7": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "249": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "191": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "230": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "277": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        }
+      }
+    },
+    {
+      "query_id": "seed_009",
+      "judgments": {
+        "131": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "290": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "10": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "227": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "357": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "363": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "296": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "76": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "170": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "249": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "194": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "132": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "196": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "202": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "304": {
+          "relevance_level": 2,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "164": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "257": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "121": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "145": {
+          "relevance_level": 2,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "1": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "114": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "240": {
+          "relevance_level": 2,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "205": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "308": {
+          "relevance_level": 2,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "276": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "314": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "255": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "327": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "360": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "233": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        }
+      }
+    },
+    {
+      "query_id": "seed_010",
+      "judgments": {
+        "236": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "92": {
+          "relevance_level": 1,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "7": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "263": {
+          "relevance_level": 3,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "298": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "125": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "223": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "155": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "325": {
+          "relevance_level": 1,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "332": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "240": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "302": {
+          "relevance_level": 3,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "201": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "355": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "215": {
+          "relevance_level": 1,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "61": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "328": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "78": {
+          "relevance_level": 3,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "145": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "214": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "2": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "213": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "26": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "262": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "239": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "289": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "249": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "258": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "166": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "180": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        }
+      }
+    },
+    {
+      "query_id": "seed_011",
+      "judgments": {
+        "217": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "327": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "119": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "178": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "169": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "75": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "13": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "366": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "259": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "272": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "293": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "11": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "294": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "48": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "364": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "65": {
+          "relevance_level": 2,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "80": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "137": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "264": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "181": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "196": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "248": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "179": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "190": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "234": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "213": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "240": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "126": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "58": {
+          "relevance_level": 3,
+          "rationale": "Matches 4/4 expected characteristics"
+        },
+        "309": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        }
+      }
+    },
+    {
+      "query_id": "seed_012",
+      "judgments": {
+        "205": {
+          "relevance_level": 3,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "136": {
+          "relevance_level": 1,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "204": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "116": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "44": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "76": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "330": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "285": {
+          "relevance_level": 3,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "147": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "64": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "227": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "170": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "195": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "107": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "85": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "316": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "123": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "219": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "93": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "220": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "255": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "43": {
+          "relevance_level": 1,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "128": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "263": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "297": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "131": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "346": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "157": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "48": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "129": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        }
+      }
+    },
+    {
+      "query_id": "seed_013",
+      "judgments": {
+        "4": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "64": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "66": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "13": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "18": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "210": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "166": {
+          "relevance_level": 3,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "333": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "5": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "97": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "188": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "296": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "267": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "279": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "109": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "304": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "131": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "225": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "362": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "317": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "284": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "335": {
+          "relevance_level": 1,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "348": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "119": {
+          "relevance_level": 3,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "127": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "365": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "178": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "226": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "163": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "201": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        }
+      }
+    },
+    {
+      "query_id": "seed_014",
+      "judgments": {
+        "286": {
+          "relevance_level": 1,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "316": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "28": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "288": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "55": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "94": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "83": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "215": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "190": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "202": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "300": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "343": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "36": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "207": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "261": {
+          "relevance_level": 2,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "109": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "167": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "325": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "201": {
+          "relevance_level": 2,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "338": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "329": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "213": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "76": {
+          "relevance_level": 3,
+          "rationale": "Matches 2/4 expected characteristics"
+        },
+        "211": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "231": {
+          "relevance_level": 0,
+          "rationale": "No significant match"
+        },
+        "272": {
+          "relevance_level": 3,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "234": {
+          "relevance_level": 2,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "98": {
+          "relevance_level": 1,
+          "rationale": "Matches 1/4 expected characteristics"
+        },
+        "24": {
+          "relevance_level": 2,
+          "rationale": "Matches 3/4 expected characteristics"
+        },
+        "166": {
+          "relevance_level": 1,
+          "rationale": "Matches 2/4 expected characteristics"
+        }
+      }
+    }
+  ]
+}

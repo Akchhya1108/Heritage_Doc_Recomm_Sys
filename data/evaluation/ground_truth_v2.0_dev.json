@@ -1,0 +1,643 @@
+{
+  "version": "2.0",
+  "split": "dev",
+  "creation_date": "2025-11-29T18:34:58.397166",
+  "num_queries": 1,
+  "statistics": {
+    "num_queries": 1,
+    "query_types": {
+      "seed": 1
+    },
+    "complexity_distribution": {
+      "moderate": 1
+    },
+    "avg_relevant_docs_per_query": 50.0,
+    "avg_inter_annotator_agreement": 0.6666666666666667,
+    "relevance_level_distribution": {
+      "3": 30,
+      "1": 7,
+      "2": 13
+    },
+    "cluster_coverage": [
+      -1
+    ],
+    "time_period_coverage": [
+      "ancient"
+    ],
+    "region_coverage": [
+      "india"
+    ]
+  },
+  "queries": [
+    {
+      "query_id": "seed_005",
+      "query_text": "Ancient Indian cave paintings and rock art",
+      "query_type": "seed",
+      "heritage_types": [
+        "art",
+        "site"
+      ],
+      "domains": [
+        "cultural",
+        "archaeological"
+      ],
+      "time_period": "ancient",
+      "region": "india",
+      "complexity": "moderate",
+      "relevance_judgments": {
+        "12": [
+          {
+            "annotator_id": "demo_annotator_1",
+            "document_id": 12,
+            "relevance_level": 3,
+            "rationale": "Matches 4/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.467160"
+          }
+        ],
+        "177": [
+          {
+            "annotator_id": "demo_annotator_1",
+            "document_id": 177,
+            "relevance_level": 3,
+            "rationale": "Matches 2/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.467160"
+          }
+        ],
+        "2": [
+          {
+            "annotator_id": "demo_annotator_1",
+            "document_id": 2,
+            "relevance_level": 1,
+            "rationale": "Matches 2/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.467160"
+          }
+        ],
+        "339": [
+          {
+            "annotator_id": "demo_annotator_1",
+            "document_id": 339,
+            "relevance_level": 3,
+            "rationale": "Matches 3/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.467160"
+          }
+        ],
+        "356": [
+          {
+            "annotator_id": "demo_annotator_1",
+            "document_id": 356,
+            "relevance_level": 2,
+            "rationale": "Matches 2/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.467160"
+          }
+        ],
+        "307": [
+          {
+            "annotator_id": "demo_annotator_1",
+            "document_id": 307,
+            "relevance_level": 3,
+            "rationale": "Matches 2/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.467160"
+          }
+        ],
+        "165": [
+          {
+            "annotator_id": "demo_annotator_1",
+            "document_id": 165,
+            "relevance_level": 2,
+            "rationale": "Matches 3/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.467160"
+          },
+          {
+            "annotator_id": "demo_annotator_2",
+            "document_id": 165,
+            "relevance_level": 2,
+            "rationale": "Matches 3/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.480340"
+          }
+        ],
+        "55": [
+          {
+            "annotator_id": "demo_annotator_1",
+            "document_id": 55,
+            "relevance_level": 3,
+            "rationale": "Matches 3/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.467160"
+          }
+        ],
+        "349": [
+          {
+            "annotator_id": "demo_annotator_1",
+            "document_id": 349,
+            "relevance_level": 1,
+            "rationale": "Matches 2/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.467160"
+          }
+        ],
+        "103": [
+          {
+            "annotator_id": "demo_annotator_1",
+            "document_id": 103,
+            "relevance_level": 3,
+            "rationale": "Matches 4/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.467160"
+          },
+          {
+            "annotator_id": "demo_annotator_2",
+            "document_id": 103,
+            "relevance_level": 3,
+            "rationale": "Matches 4/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.480340"
+          }
+        ],
+        "303": [
+          {
+            "annotator_id": "demo_annotator_1",
+            "document_id": 303,
+            "relevance_level": 0,
+            "rationale": "No significant match",
+            "timestamp": "2025-11-29T18:32:55.467160"
+          }
+        ],
+        "297": [
+          {
+            "annotator_id": "demo_annotator_1",
+            "document_id": 297,
+            "relevance_level": 3,
+            "rationale": "Matches 3/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.467160"
+          }
+        ],
+        "204": [
+          {
+            "annotator_id": "demo_annotator_1",
+            "document_id": 204,
+            "relevance_level": 2,
+            "rationale": "Matches 2/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.467160"
+          },
+          {
+            "annotator_id": "demo_annotator_2",
+            "document_id": 204,
+            "relevance_level": 3,
+            "rationale": "Matches 2/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.480340"
+          }
+        ],
+        "83": [
+          {
+            "annotator_id": "demo_annotator_1",
+            "document_id": 83,
+            "relevance_level": 3,
+            "rationale": "Matches 3/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.467160"
+          }
+        ],
+        "149": [
+          {
+            "annotator_id": "demo_annotator_1",
+            "document_id": 149,
+            "relevance_level": 3,
+            "rationale": "Matches 3/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.467160"
+          },
+          {
+            "annotator_id": "demo_annotator_2",
+            "document_id": 149,
+            "relevance_level": 3,
+            "rationale": "Matches 3/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.480340"
+          }
+        ],
+        "289": [
+          {
+            "annotator_id": "demo_annotator_1",
+            "document_id": 289,
+            "relevance_level": 3,
+            "rationale": "Matches 4/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.467160"
+          }
+        ],
+        "107": [
+          {
+            "annotator_id": "demo_annotator_1",
+            "document_id": 107,
+            "relevance_level": 3,
+            "rationale": "Matches 4/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.467160"
+          },
+          {
+            "annotator_id": "demo_annotator_2",
+            "document_id": 107,
+            "relevance_level": 3,
+            "rationale": "Matches 4/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.480340"
+          }
+        ],
+        "137": [
+          {
+            "annotator_id": "demo_annotator_1",
+            "document_id": 137,
+            "relevance_level": 3,
+            "rationale": "Matches 4/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.467160"
+          }
+        ],
+        "1": [
+          {
+            "annotator_id": "demo_annotator_1",
+            "document_id": 1,
+            "relevance_level": 2,
+            "rationale": "Matches 3/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.467160"
+          }
+        ],
+        "168": [
+          {
+            "annotator_id": "demo_annotator_1",
+            "document_id": 168,
+            "relevance_level": 2,
+            "rationale": "Matches 3/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.467160"
+          }
+        ],
+        "142": [
+          {
+            "annotator_id": "demo_annotator_1",
+            "document_id": 142,
+            "relevance_level": 1,
+            "rationale": "Matches 1/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.467160"
+          }
+        ],
+        "254": [
+          {
+            "annotator_id": "demo_annotator_1",
+            "document_id": 254,
+            "relevance_level": 2,
+            "rationale": "Matches 3/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.467160"
+          }
+        ],
+        "118": [
+          {
+            "annotator_id": "demo_annotator_1",
+            "document_id": 118,
+            "relevance_level": 2,
+            "rationale": "Matches 1/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.467160"
+          }
+        ],
+        "237": [
+          {
+            "annotator_id": "demo_annotator_1",
+            "document_id": 237,
+            "relevance_level": 3,
+            "rationale": "Matches 3/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.467160"
+          }
+        ],
+        "162": [
+          {
+            "annotator_id": "demo_annotator_1",
+            "document_id": 162,
+            "relevance_level": 3,
+            "rationale": "Matches 3/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.467160"
+          }
+        ],
+        "239": [
+          {
+            "annotator_id": "demo_annotator_1",
+            "document_id": 239,
+            "relevance_level": 0,
+            "rationale": "No significant match",
+            "timestamp": "2025-11-29T18:32:55.467160"
+          }
+        ],
+        "3": [
+          {
+            "annotator_id": "demo_annotator_1",
+            "document_id": 3,
+            "relevance_level": 3,
+            "rationale": "Matches 3/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.467160"
+          }
+        ],
+        "77": [
+          {
+            "annotator_id": "demo_annotator_1",
+            "document_id": 77,
+            "relevance_level": 2,
+            "rationale": "Matches 2/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.467160"
+          }
+        ],
+        "280": [
+          {
+            "annotator_id": "demo_annotator_1",
+            "document_id": 280,
+            "relevance_level": 2,
+            "rationale": "Matches 3/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.467160"
+          },
+          {
+            "annotator_id": "demo_annotator_2",
+            "document_id": 280,
+            "relevance_level": 2,
+            "rationale": "Matches 3/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.480340"
+          }
+        ],
+        "323": [
+          {
+            "annotator_id": "demo_annotator_1",
+            "document_id": 323,
+            "relevance_level": 2,
+            "rationale": "Matches 3/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.467160"
+          }
+        ],
+        "89": [
+          {
+            "annotator_id": "demo_annotator_2",
+            "document_id": 89,
+            "relevance_level": 2,
+            "rationale": "Matches 2/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.480340"
+          }
+        ],
+        "85": [
+          {
+            "annotator_id": "demo_annotator_2",
+            "document_id": 85,
+            "relevance_level": 3,
+            "rationale": "Matches 3/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.480340"
+          }
+        ],
+        "300": [
+          {
+            "annotator_id": "demo_annotator_2",
+            "document_id": 300,
+            "relevance_level": 1,
+            "rationale": "Matches 2/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.480340"
+          }
+        ],
+        "9": [
+          {
+            "annotator_id": "demo_annotator_2",
+            "document_id": 9,
+            "relevance_level": 1,
+            "rationale": "Matches 2/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.480340"
+          }
+        ],
+        "99": [
+          {
+            "annotator_id": "demo_annotator_2",
+            "document_id": 99,
+            "relevance_level": 0,
+            "rationale": "No significant match",
+            "timestamp": "2025-11-29T18:32:55.480340"
+          }
+        ],
+        "309": [
+          {
+            "annotator_id": "demo_annotator_2",
+            "document_id": 309,
+            "relevance_level": 3,
+            "rationale": "Matches 3/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.480340"
+          }
+        ],
+        "82": [
+          {
+            "annotator_id": "demo_annotator_2",
+            "document_id": 82,
+            "relevance_level": 3,
+            "rationale": "Matches 3/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.480340"
+          }
+        ],
+        "247": [
+          {
+            "annotator_id": "demo_annotator_2",
+            "document_id": 247,
+            "relevance_level": 2,
+            "rationale": "Matches 2/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.480340"
+          }
+        ],
+        "321": [
+          {
+            "annotator_id": "demo_annotator_2",
+            "document_id": 321,
+            "relevance_level": 1,
+            "rationale": "Matches 1/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.480340"
+          }
+        ],
+        "88": [
+          {
+            "annotator_id": "demo_annotator_2",
+            "document_id": 88,
+            "relevance_level": 3,
+            "rationale": "Matches 3/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.480340"
+          }
+        ],
+        "158": [
+          {
+            "annotator_id": "demo_annotator_2",
+            "document_id": 158,
+            "relevance_level": 3,
+            "rationale": "Matches 3/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.480340"
+          }
+        ],
+        "240": [
+          {
+            "annotator_id": "demo_annotator_2",
+            "document_id": 240,
+            "relevance_level": 3,
+            "rationale": "Matches 3/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.480340"
+          }
+        ],
+        "15": [
+          {
+            "annotator_id": "demo_annotator_2",
+            "document_id": 15,
+            "relevance_level": 3,
+            "rationale": "Matches 4/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.480340"
+          }
+        ],
+        "67": [
+          {
+            "annotator_id": "demo_annotator_2",
+            "document_id": 67,
+            "relevance_level": 3,
+            "rationale": "Matches 2/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.480340"
+          }
+        ],
+        "119": [
+          {
+            "annotator_id": "demo_annotator_2",
+            "document_id": 119,
+            "relevance_level": 0,
+            "rationale": "No significant match",
+            "timestamp": "2025-11-29T18:32:55.480340"
+          }
+        ],
+        "365": [
+          {
+            "annotator_id": "demo_annotator_2",
+            "document_id": 365,
+            "relevance_level": 3,
+            "rationale": "Matches 3/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.480340"
+          }
+        ],
+        "199": [
+          {
+            "annotator_id": "demo_annotator_2",
+            "document_id": 199,
+            "relevance_level": 3,
+            "rationale": "Matches 3/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.480340"
+          }
+        ],
+        "220": [
+          {
+            "annotator_id": "demo_annotator_2",
+            "document_id": 220,
+            "relevance_level": 1,
+            "rationale": "Matches 1/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.480340"
+          }
+        ],
+        "210": [
+          {
+            "annotator_id": "demo_annotator_2",
+            "document_id": 210,
+            "relevance_level": 3,
+            "rationale": "Matches 2/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.480340"
+          }
+        ],
+        "345": [
+          {
+            "annotator_id": "demo_annotator_2",
+            "document_id": 345,
+            "relevance_level": 3,
+            "rationale": "Matches 3/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.480340"
+          }
+        ],
+        "358": [
+          {
+            "annotator_id": "demo_annotator_2",
+            "document_id": 358,
+            "relevance_level": 2,
+            "rationale": "Matches 3/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.480340"
+          }
+        ],
+        "51": [
+          {
+            "annotator_id": "demo_annotator_2",
+            "document_id": 51,
+            "relevance_level": 3,
+            "rationale": "Matches 2/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.480340"
+          }
+        ],
+        "27": [
+          {
+            "annotator_id": "demo_annotator_2",
+            "document_id": 27,
+            "relevance_level": 3,
+            "rationale": "Matches 4/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.480340"
+          }
+        ],
+        "352": [
+          {
+            "annotator_id": "demo_annotator_2",
+            "document_id": 352,
+            "relevance_level": 3,
+            "rationale": "Matches 3/4 expected characteristics",
+            "timestamp": "2025-11-29T18:32:55.480340"
+          }
+        ]
+      },
+      "consensus_relevance": {
+        "12": 3,
+        "177": 3,
+        "2": 1,
+        "339": 3,
+        "356": 2,
+        "307": 3,
+        "165": 2,
+        "55": 3,
+        "349": 1,
+        "103": 3,
+        "297": 3,
+        "204": 2,
+        "83": 3,
+        "149": 3,
+        "289": 3,
+        "107": 3,
+        "137": 3,
+        "1": 2,
+        "168": 2,
+        "142": 1,
+        "254": 2,
+        "118": 2,
+        "237": 3,
+        "162": 3,
+        "3": 3,
+        "77": 2,
+        "280": 2,
+        "323": 2,
+        "89": 2,
+        "85": 3,
+        "300": 1,
+        "9": 1,
+        "309": 3,
+        "82": 3,
+        "247": 2,
+        "321": 1,
+        "88": 3,
+        "158": 3,
+        "240": 3,
+        "15": 3,
+        "67": 3,
+        "365": 3,
+        "199": 3,
+        "220": 1,
+        "210": 3,
+        "345": 3,
+        "358": 2,
+        "51": 3,
+        "27": 3,
+        "352": 3
+      },
+      "inter_annotator_agreement": 0.6666666666666667,
+      "num_annotators": 2,
+      "cluster_distribution": {
+        "-1": 50
+      },
+      "creation_date": "2025-11-29T18:34:58.393039",
+      "version": "2.0",
+      "expected_result_size_range": [
+        0,
+        100
+      ],
+      "rationale": ""
+    }
+  ]
+}
