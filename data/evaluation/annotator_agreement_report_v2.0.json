@@ -1,0 +1,440 @@
+{
+  "overall_statistics": {
+    "overall_kappa": 0.14899227234753548,
+    "kappa_std": 0.3953948402341831,
+    "kappa_range": [
+      -0.5000000000000002,
+      1.0
+    ],
+    "num_annotators": 2,
+    "num_queries": 15,
+    "validated_queries": 2,
+    "low_agreement_queries": 69
+  },
+  "annotator_pairs": {
+    "annotator_0_vs_annotator_1": {
+      "mean_kappa": 0.14899227234753548,
+      "num_queries": 12
+    }
+  },
+  "query_level_kappa": {
+    "seed_000": 0.0,
+    "seed_001": 0.1428571428571428,
+    "seed_003": 0.5,
+    "seed_004": 0.0,
+    "seed_005": 0.6666666666666667,
+    "seed_008": -0.5000000000000002,
+    "seed_009": 1.0,
+    "seed_010": 0.1428571428571429,
+    "seed_011": -0.04166666666666674,
+    "seed_012": 0.21052631578947367,
+    "seed_013": 0.0,
+    "seed_014": -0.33333333333333326
+  },
+  "disagreement_cases": [
+    {
+      "query_id": "seed_001",
+      "doc_id": 148,
+      "annotator_1": "annotator_0",
+      "rating_1": 1,
+      "annotator_2": "annotator_1",
+      "rating_2": 3
+    },
+    {
+      "query_id": "seed_008",
+      "doc_id": 232,
+      "annotator_1": "annotator_0",
+      "rating_1": 1,
+      "annotator_2": "annotator_1",
+      "rating_2": 3
+    },
+    {
+      "query_id": "seed_010",
+      "doc_id": 213,
+      "annotator_1": "annotator_0",
+      "rating_1": 0,
+      "annotator_2": "annotator_1",
+      "rating_2": 2
+    },
+    {
+      "query_id": "seed_011",
+      "doc_id": 264,
+      "annotator_1": "annotator_0",
+      "rating_1": 1,
+      "annotator_2": "annotator_1",
+      "rating_2": 3
+    },
+    {
+      "query_id": "seed_013",
+      "doc_id": 64,
+      "annotator_1": "annotator_0",
+      "rating_1": 3,
+      "annotator_2": "annotator_1",
+      "rating_2": 1
+    },
+    {
+      "query_id": "seed_013",
+      "doc_id": 18,
+      "annotator_1": "annotator_0",
+      "rating_1": 3,
+      "annotator_2": "annotator_1",
+      "rating_2": 1
+    },
+    {
+      "query_id": "seed_014",
+      "doc_id": 343,
+      "annotator_1": "annotator_0",
+      "rating_1": 2,
+      "annotator_2": "annotator_1",
+      "rating_2": 0
+    }
+  ],
+  "low_agreement_queries": [
+    {
+      "query_id": "seed_000",
+      "kappa": 0.0,
+      "query_text": "Show me ancient Buddhist stupas in India"
+    },
+    {
+      "query_id": "seed_001",
+      "kappa": 0.1428571428571428,
+      "query_text": "What are the major Mughal forts in North India?"
+    },
+    {
+      "query_id": "seed_002",
+      "kappa": 0.0,
+      "query_text": "Find information about UNESCO World Heritage temples"
+    },
+    {
+      "query_id": "seed_003",
+      "kappa": 0.5,
+      "query_text": "Archaeological sites from the Indus Valley Civilization"
+    },
+    {
+      "query_id": "seed_004",
+      "kappa": 0.0,
+      "query_text": "Colonial era historical sites in India"
+    },
+    {
+      "query_id": "seed_006",
+      "kappa": 0.0,
+      "query_text": "Traditional Indian dance forms and performing arts"
+    },
+    {
+      "query_id": "seed_007",
+      "kappa": 0.0,
+      "query_text": "Examples of Dravidian temple architecture in South India"
+    },
+    {
+      "query_id": "seed_008",
+      "kappa": -0.5000000000000002,
+      "query_text": "Indo-Islamic architectural monuments"
+    },
+    {
+      "query_id": "seed_010",
+      "kappa": 0.1428571428571429,
+      "query_text": "Medieval manuscript collections and historical documents"
+    },
+    {
+      "query_id": "seed_011",
+      "kappa": -0.04166666666666674,
+      "query_text": "Buddhist and Jain cave temples in Western India with ancient rock-cut architecture"
+    },
+    {
+      "query_id": "seed_012",
+      "kappa": 0.21052631578947367,
+      "query_text": "Royal palaces and forts built by Rajput dynasties"
+    },
+    {
+      "query_id": "seed_013",
+      "kappa": 0.0,
+      "query_text": "Sacred rivers and pilgrimage sites in Hindu tradition"
+    },
+    {
+      "query_id": "seed_014",
+      "kappa": -0.33333333333333326,
+      "query_text": "Ancient maritime trade routes and port cities"
+    },
+    {
+      "query_id": "seed_015",
+      "kappa": 0.0,
+      "query_text": "Monuments and buildings influenced by Persian architectural elements"
+    },
+    {
+      "query_id": "seed_016",
+      "kappa": 0.0,
+      "query_text": "Rock-cut monasteries and viharas from Buddhist era"
+    },
+    {
+      "query_id": "seed_017",
+      "kappa": 0.0,
+      "query_text": "Water management systems in ancient Indian civilizations"
+    },
+    {
+      "query_id": "seed_018",
+      "kappa": 0.0,
+      "query_text": "Temple towns and sacred geography in medieval South India"
+    },
+    {
+      "query_id": "seed_019",
+      "kappa": 0.0,
+      "query_text": "Compare architectural evolution from ancient Buddhist stupas to medieval Hindu temples showing Indo-Islamic synthesis"
+    },
+    {
+      "query_id": "seed_020",
+      "kappa": 0.0,
+      "query_text": "Coastal defense structures and maritime heritage from Chola period to colonial era"
+    },
+    {
+      "query_id": "seed_021",
+      "kappa": 0.0,
+      "query_text": "UNESCO sites representing cultural exchange along Silk Route in Indian subcontinent"
+    },
+    {
+      "query_id": "seed_022",
+      "kappa": 0.0,
+      "query_text": "Living heritage traditions practiced at ancient pilgrimage sites"
+    },
+    {
+      "query_id": "seed_023",
+      "kappa": 0.0,
+      "query_text": "Rock art sites showing prehistoric to early historic transition in central India"
+    },
+    {
+      "query_id": "seed_024",
+      "kappa": 0.0,
+      "query_text": "Royal patronage networks connecting temples, monasteries and educational institutions"
+    },
+    {
+      "query_id": "seed_025",
+      "kappa": 0.0,
+      "query_text": "Funerary architecture and burial practices across different cultures and time periods"
+    },
+    {
+      "query_id": "seed_026",
+      "kappa": 0.0,
+      "query_text": "Urban planning and city layouts in ancient vs medieval Indian capitals"
+    },
+    {
+      "query_id": "seed_027",
+      "kappa": 0.0,
+      "query_text": "Buddhist heritage sites in Eastern India"
+    },
+    {
+      "query_id": "seed_028",
+      "kappa": 0.0,
+      "query_text": "Heritage sites in Central India"
+    },
+    {
+      "query_id": "seed_029",
+      "kappa": 0.0,
+      "query_text": "Modern architectural heritage from 20th century India"
+    },
+    {
+      "query_id": "seed_030",
+      "kappa": 0.0,
+      "query_text": "Artifacts and archaeological finds from unknown or uncertain time periods"
+    },
+    {
+      "query_id": "seed_031",
+      "kappa": 0.0,
+      "query_text": "Intangible cultural heritage and living traditions"
+    },
+    {
+      "query_id": "seed_032",
+      "kappa": 0.0,
+      "query_text": "Vernacular architecture and folk traditions in rural India"
+    },
+    {
+      "query_id": "seed_033",
+      "kappa": 0.0,
+      "query_text": "Colonial Indo-Saracenic architecture blending European and Indian styles"
+    },
+    {
+      "query_id": "seed_034",
+      "kappa": 0.0,
+      "query_text": "Megalithic burial sites and prehistoric monuments"
+    },
+    {
+      "query_id": "seed_035",
+      "kappa": 0.0,
+      "query_text": "Ancient Egyptian pyramids and pharaonic tombs"
+    },
+    {
+      "query_id": "seed_036",
+      "kappa": 0.0,
+      "query_text": "Renaissance art and architecture in Italy"
+    },
+    {
+      "query_id": "seed_037",
+      "kappa": 0.0,
+      "query_text": "Pre-Columbian Mayan temples and codices"
+    },
+    {
+      "query_id": "seed_038",
+      "kappa": 0.0,
+      "query_text": "Contemporary digital art installations from 21st century"
+    },
+    {
+      "query_id": "seed_039",
+      "kappa": 0.0,
+      "query_text": "Industrial revolution factories and railway heritage in Europe"
+    },
+    {
+      "query_id": "seed_040",
+      "kappa": 0.0,
+      "query_text": "Hindu temples dedicated to Shiva"
+    },
+    {
+      "query_id": "seed_041",
+      "kappa": 0.0,
+      "query_text": "Islamic mosques and dargahs in India"
+    },
+    {
+      "query_id": "seed_042",
+      "kappa": 0.0,
+      "query_text": "Sikh gurdwaras and historical sites"
+    },
+    {
+      "query_id": "seed_043",
+      "kappa": 0.0,
+      "query_text": "Jain temples with intricate marble carvings"
+    },
+    {
+      "query_id": "seed_044",
+      "kappa": 0.0,
+      "query_text": "Hill forts and defensive fortifications in Western India"
+    },
+    {
+      "query_id": "seed_045",
+      "kappa": 0.0,
+      "query_text": "Battle sites and war memorials from Indian history"
+    },
+    {
+      "query_id": "seed_046",
+      "kappa": 0.0,
+      "query_text": "Royal palaces and residential quarters of Indian rulers"
+    },
+    {
+      "query_id": "seed_047",
+      "kappa": 0.0,
+      "query_text": "Coronation sites and royal ceremonial spaces"
+    },
+    {
+      "query_id": "seed_048",
+      "kappa": 0.0,
+      "query_text": "Monuments built by Ashoka the Great"
+    },
+    {
+      "query_id": "seed_049",
+      "kappa": 0.0,
+      "query_text": "Architectural works commissioned by Shah Jahan"
+    },
+    {
+      "query_id": "synthetic_easy_000",
+      "kappa": 0.0,
+      "query_text": "Find art ancient in west India heritage sites"
+    },
+    {
+      "query_id": "synthetic_hard_000",
+      "kappa": 0.0,
+      "query_text": "historical art and monument in royal, military domains from east region"
+    },
+    {
+      "query_id": "synthetic_hard_001",
+      "kappa": 0.0,
+      "query_text": "medieval site and monument in architectural, cultural domains from north region"
+    },
+    {
+      "query_id": "synthetic_hard_002",
+      "kappa": 0.0,
+      "query_text": "medieval site and art in religious, royal domains"
+    },
+    {
+      "query_id": "synthetic_hard_003",
+      "kappa": 0.0,
+      "query_text": "modern site and monument in cultural, religious domains from central region"
+    },
+    {
+      "query_id": "synthetic_hard_004",
+      "kappa": 0.0,
+      "query_text": "medieval monument and artifact in military, religious domains from india region"
+    },
+    {
+      "query_id": "synthetic_hard_005",
+      "kappa": 0.0,
+      "query_text": "ancient monument and site in architectural, military domains"
+    },
+    {
+      "query_id": "synthetic_hard_006",
+      "kappa": 0.0,
+      "query_text": "modern artifact and architecture in military, archaeological domains from india region"
+    },
+    {
+      "query_id": "synthetic_hard_007",
+      "kappa": 0.0,
+      "query_text": "historical site and architecture in military, archaeological domains"
+    },
+    {
+      "query_id": "synthetic_hard_008",
+      "kappa": 0.0,
+      "query_text": "historical tradition and architecture in royal, cultural domains"
+    },
+    {
+      "query_id": "synthetic_hard_009",
+      "kappa": 0.0,
+      "query_text": "modern artifact and site in military, religious domains from east region"
+    },
+    {
+      "query_id": "synthetic_hard_010",
+      "kappa": 0.0,
+      "query_text": "modern artifact and architecture in cultural, military domains"
+    },
+    {
+      "query_id": "synthetic_hard_011",
+      "kappa": 0.0,
+      "query_text": "medieval site and architecture in royal, military domains"
+    },
+    {
+      "query_id": "synthetic_hard_012",
+      "kappa": 0.0,
+      "query_text": "modern site and artifact in architectural, royal domains from west region"
+    },
+    {
+      "query_id": "synthetic_hard_013",
+      "kappa": 0.0,
+      "query_text": "medieval tradition and monument in cultural, archaeological domains from south region"
+    },
+    {
+      "query_id": "synthetic_hard_014",
+      "kappa": 0.0,
+      "query_text": "ancient tradition and architecture in cultural, religious domains"
+    },
+    {
+      "query_id": "synthetic_hard_015",
+      "kappa": 0.0,
+      "query_text": "modern site and artifact in religious, military domains"
+    },
+    {
+      "query_id": "synthetic_hard_016",
+      "kappa": 0.0,
+      "query_text": "modern monument and site in cultural, architectural domains from east region"
+    },
+    {
+      "query_id": "synthetic_hard_017",
+      "kappa": 0.0,
+      "query_text": "medieval art and artifact in archaeological, religious domains"
+    },
+    {
+      "query_id": "synthetic_hard_018",
+      "kappa": 0.0,
+      "query_text": "medieval artifact and site in religious, military domains"
+    },
+    {
+      "query_id": "synthetic_hard_019",
+      "kappa": 0.0,
+      "query_text": "modern monument and art in archaeological, architectural domains from central region"
+    }
+  ],
+  "validation_date": "2025-11-29T18:34:58.398883"
+}
