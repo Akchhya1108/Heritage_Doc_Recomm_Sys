@@ -251,6 +251,55 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ========== SIDEBAR NAVIGATION ==========
+
+# Sidebar navigation
+st.sidebar.title("🏛️ Heritage Recommender")
+st.sidebar.markdown("---")
+
+# Add logo or image (optional)
+# st.sidebar.image("assets/logo.png", width=200)
+
+page = st.sidebar.radio(
+    "Navigation",
+    ["🏠 Home", "🔍 Search", "🕸️ Knowledge Graph", "📊 Results & Explanations", "📈 Evaluation", "ℹ️ About"],
+    label_visibility="collapsed"
+)
+
+# System stats in sidebar
+st.sidebar.markdown("---")
+st.sidebar.markdown("### 📊 Quick Stats")
+st.sidebar.metric("Documents", "369")
+st.sidebar.metric("Best Precision", "82.8%")
+st.sidebar.metric("Avg Latency", "<0.3ms")
+
+# Sidebar footer
+st.sidebar.markdown("---")
+st.sidebar.markdown("""
+<div style="text-align: center; font-size: 0.8rem; color: #666;">
+    <p>Heritage Document Recommender v2.0</p>
+    <p>© 2025 Akchhya Singh</p>
+</div>
+""", unsafe_allow_html=True)
+
+# Import and render pages
+if page == "🏠 Home":
+    from pages import home_page
+    home_page.render()
+elif page == "🔍 Search":
+    from pages import search_page
+    search_page.render()
+elif page == "🕸️ Knowledge Graph":
+    from pages import kg_viz_page
+    kg_viz_page.render()
+elif page == "📊 Results & Explanations":
+    from pages import results_page
+    results_page.render()
+elif page == "📈 Evaluation":
+    from pages import evaluation_page
+    evaluation_page.render()
+elif page == "ℹ️ About":
+    from pages import about_page
+    about_page.render()
 with st.sidebar:
     st.markdown("""
     <div style='text-align: center; padding: 2rem 0;'>
