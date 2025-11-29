@@ -22,20 +22,25 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-.env
 
-# Data files (don't commit large datasets)
-data
+# Data files (don't commit large datasets - but keep structure)
 data/raw/**/*.json
-data/cleaned/
-data/metadata/
+data/cleaned/**/*.txt
+# Keep metadata and balanced data
+# data/metadata/
+# data/balanced/
 
-# Models (large files)
-models/
-*.h5
-*.pkl
-*.pth
+# Models (keep small model files, exclude large binaries)
+models/**/*.h5
+models/**/*.pth
+# Keep FAISS indices and configs
+# models/ranker/faiss/*.faiss
+# models/ranker/faiss/*.json
 
+# Knowledge Graph (keep some files)
+# knowledge_graph/heritage_kg.gpickle
+# knowledge_graph/heritage_kg.gml
+# Keep statistics and smaller files
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -54,13 +59,6 @@ config/api_keys.txt
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
-knowledge_graph/heritage_kg.gml
-knowledge_graph/heritage_kg.gml
-knowledge_graph/heritage_kg.gpickle
-
-knowledge_graph/kg_visualization.png
-knowledge_graph/kg_external_enriched.png
-knowledge_graph/heritage_kg_integrated.gpickle
-knowledge_graph/subgraphs/
+# Logs (keep recent)
+logs/**/*.log
+!logs/README.md
