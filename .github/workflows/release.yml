@@ -1,0 +1,92 @@
+name: Create Release
+
+# How to trigger: Create a tag like v1.0.0, v1.1.0, etc.
+# Command: git tag v1.0.0 && git push origin v1.0.0
+on:
+  push:
+    tags:
+      - 'v*.*.*'  # Matches v1.0.0, v2.1.3, etc.
+
+jobs:
+  create-release:
+    name: Create GitHub Release
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # Needed to create releases
+
+    steps:
+      # Step 1: Get the code
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Get all history for changelog
+
+      # Step 2: Extract version from tag
+      - name: Get version from tag
+        id: version
+        run: |
+          echo "VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
+          echo "VERSION_NUMBER=${GITHUB_REF#refs/tags/v}" >> $GITHUB_OUTPUT
+
+      # Step 3: Generate changelog
+      - name: Generate changelog
+        id: changelog
+        run: |
+          # Get commits since last tag
+          PREVIOUS_TAG=$(git describe --abbrev=0 --tags $(git rev-list --tags --skip=1 --max-count=1) 2>/dev/null || echo "")
+
+          if [ -z "$PREVIOUS_TAG" ]; then
+            # First release - get all commits
+            CHANGELOG=$(git log --pretty=format:"- %s (%h)" --no-merges)
+          else
+            # Get commits since previous tag
+            CHANGELOG=$(git log ${PREVIOUS_TAG}..HEAD --pretty=format:"- %s (%h)" --no-merges)
+          fi
+
+          # Save to file for release notes
+          echo "## What's Changed" > CHANGELOG.md
+          echo "" >> CHANGELOG.md
+          echo "$CHANGELOG" >> CHANGELOG.md
+          echo "" >> CHANGELOG.md
+          echo "**Full Changelog**: https://github.com/${{ github.repository }}/compare/${PREVIOUS_TAG}...${{ steps.version.outputs.VERSION }}" >> CHANGELOG.md
+
+      # Step 4: Create release archive
+      - name: Create release archive
+        run: |
+          # Create a clean archive without git files
+          mkdir -p release-files
+          rsync -av --exclude='.git' \
+                    --exclude='venv' \
+                    --exclude='__pycache__' \
+                    --exclude='*.pyc' \
+                    --exclude='.pytest_cache' \
+                    --exclude='data/raw' \
+                    --exclude='data/embeddings' \
+                    --exclude='models' \
+                    . release-files/heritage-doc-recomm-${{ steps.version.outputs.VERSION_NUMBER }}/
+
+          cd release-files
+          tar -czf heritage-doc-recomm-${{ steps.version.outputs.VERSION_NUMBER }}.tar.gz heritage-doc-recomm-${{ steps.version.outputs.VERSION_NUMBER }}/
+          zip -r heritage-doc-recomm-${{ steps.version.outputs.VERSION_NUMBER }}.zip heritage-doc-recomm-${{ steps.version.outputs.VERSION_NUMBER }}/
+
+      # Step 5: Create GitHub Release
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          name: Release ${{ steps.version.outputs.VERSION }}
+          body_path: CHANGELOG.md
+          draft: false
+          prerelease: false
+          files: |
+            release-files/heritage-doc-recomm-${{ steps.version.outputs.VERSION_NUMBER }}.tar.gz
+            release-files/heritage-doc-recomm-${{ steps.version.outputs.VERSION_NUMBER }}.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Step 6: Post-release notification
+      - name: Release summary
+        run: |
+          echo "✅ Release ${{ steps.version.outputs.VERSION }} created successfully!"
+          echo "📦 Download archives available in release assets"
+          echo "🔗 https://github.com/${{ github.repository }}/releases/tag/${{ steps.version.outputs.VERSION }}"
