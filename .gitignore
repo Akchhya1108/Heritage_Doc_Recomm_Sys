@@ -27,8 +27,8 @@ wheels/
 data/raw/**/*.json
 data/cleaned/**/*.txt
 # Keep metadata and balanced data
-# data/metadata/
-# data/balanced/
+data/metadata/
+data/balanced/
 
 # Models (keep small model files, exclude large binaries)
 models/**/*.h5
@@ -38,8 +38,8 @@ models/**/*.pth
 # models/ranker/faiss/*.json
 
 # Knowledge Graph (keep some files)
-# knowledge_graph/heritage_kg.gpickle
-# knowledge_graph/heritage_kg.gml
+knowledge_graph/heritage_kg.gpickle
+knowledge_graph/heritage_kg.gml
 # Keep statistics and smaller files
 
 # Jupyter Notebook
