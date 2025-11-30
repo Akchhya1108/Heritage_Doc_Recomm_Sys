@@ -1,0 +1,59 @@
+{
+  "timestamp": "2025-11-30T02:45:14.396103",
+  "fairness_metrics": {
+    "cluster_representation": {
+      "score": 0.7975462962962964,
+      "interpretation": "Needs improvement",
+      "cluster_exposure": {
+        "0": 0.3,
+        "3": 0.3,
+        "5": 0.3,
+        "6": 0.1
+      },
+      "cluster_sizes": {
+        "0": 150,
+        "1": 120,
+        "2": 100,
+        "3": 80,
+        "4": 70,
+        "5": 90,
+        "6": 60,
+        "7": 50,
+        "8": 40,
+        "9": 30,
+        "10": 25,
+        "11": 15
+      }
+    },
+    "source_fairness": {
+      "chi_square_pvalue": 7.19413303032538e-09,
+      "interpretation": "Bias detected",
+      "source_distribution": {
+        "wikipedia": 0.1,
+        "asi": 0.2,
+        "unesco": 0.7
+      }
+    },
+    "temporal_fairness": {
+      "kl_divergence": 0.11507282898071239,
+      "interpretation": "Biased"
+    },
+    "geographic_fairness": {
+      "north_south_ratio": 1.5,
+      "interpretation": "Imbalanced",
+      "regional_distribution": {
+        "north": 0.3,
+        "central": 0.2,
+        "south": 0.2,
+        "east": 0.1,
+        "west": 0.2
+      }
+    }
+  },
+  "recommendations": {
+    "cluster_bias": "Ensure exposure proportional to cluster size (\u00b110%)",
+    "source_bias": "Balance Wikipedia, UNESCO, ASI sources",
+    "temporal_bias": "Increase representation of underrepresented periods",
+    "geographic_bias": "Balance North/South monument recommendations"
+  }
+}

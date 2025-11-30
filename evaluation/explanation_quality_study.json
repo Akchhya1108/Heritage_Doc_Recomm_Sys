@@ -1,0 +1,33 @@
+{
+  "study_design": {
+    "evaluators": 3,
+    "samples_per_evaluator": 30,
+    "rating_scale": "1-5 (1=Incorrect, 5=Perfect)",
+    "target_agreement": "Fleiss Kappa > 0.6"
+  },
+  "sample_explanations": [
+    {
+      "query": "Mughal architecture",
+      "recommendation": "Taj Mahal",
+      "path": "query_entity \u2192 mughal_architecture \u2192 taj_mahal",
+      "path_length": 3,
+      "evaluator_1_rating": null,
+      "evaluator_2_rating": null,
+      "evaluator_3_rating": null,
+      "mean_rating": null,
+      "agreement": null
+    },
+    {
+      "query": "Mughal architecture",
+      "recommendation": "Sanchi Stupa",
+      "path": "query_entity \u2192 historical_period \u2192 ancient \u2192 buddhist \u2192 sanchi",
+      "path_length": 5,
+      "evaluator_1_rating": null,
+      "evaluator_2_rating": null,
+      "evaluator_3_rating": null,
+      "mean_rating": null,
+      "agreement": null
+    }
+  ],
+  "instructions": "Rate each explanation path for how well it connects the query to the recommendation. Consider semantic relevance and path clarity."
+}

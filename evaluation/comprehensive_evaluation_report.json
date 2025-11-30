@@ -1,0 +1,45 @@
+{
+  "summary": {
+    "total_queries_evaluated": 1,
+    "evaluation_timestamp": "2025-11-30T02:45:14.396103"
+  },
+  "diversity": {
+    "temporal_entropy": 0.9502705392332347,
+    "spatial_dispersion_km": 930.1388852275295,
+    "cultural_diversity": 0.62,
+    "novelty_rate": 0.7,
+    "interpretation": "Poor: Recommendations lack diversity, may be too concentrated"
+  },
+  "fairness": {
+    "cluster_representation_score": 0.7975462962962964,
+    "source_bias_pvalue": 7.19413303032538e-09,
+    "temporal_bias_kl": 0.11507282898071239,
+    "geographic_bias_ratio": 1.5,
+    "cluster_exposure": {
+      "0": 0.3,
+      "3": 0.3,
+      "5": 0.3,
+      "6": 0.1
+    },
+    "interpretation": "Good: Generally fair, minor biases detected"
+  },
+  "explanation_quality": {
+    "avg_correctness": 3.0,
+    "avg_diversity": 0.4,
+    "avg_path_length": 3.0,
+    "interpretation": "Poor: Explanation quality needs improvement"
+  },
+  "user_experience": {
+    "expected_ctr": 0.2966666666666667,
+    "session_success_rate": 1.0,
+    "discovery_potential": 0.1,
+    "interpretation": "Good: Reasonable user satisfaction expected"
+  },
+  "robustness": {
+    "perturbation_ndcg_drop": 0.08,
+    "longtail_performance": 0.65,
+    "coldstart_recall": 0.55,
+    "interpretation": "Excellent: System is robust to query variations"
+  },
+  "overall_grade": "B (Good)"
+}
